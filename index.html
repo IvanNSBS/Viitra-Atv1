@@ -9,18 +9,20 @@
         <div>
             <div>
                 <span>A</span>
-                <input type="number" id="a-quantity" name="a-quantity" min="1" max="999">
+                <input type="number" id="a-amount" name="a-amount" min="1" max="999">
             </div>
             <div>
                 <span>B</span>
-                <input type="number" id="b-quantity" name="b-quantity" min="1" max="999">
+                <input type="number" id="b-amount" name="b-amount" min="1" max="999">
             </div>
         </div>
-        <button>Executar</button>
+        <button id="run" onClick="SolveProblem();">Executar</button>
     </div>
     <div>
         <p><b>Resultado:</b></p>
-        <span>babbaba</span>
+        <span id="result"></span>
     </div>
+
+    <script src="code.js"></script> 
   </body>
 </html>
