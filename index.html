@@ -3,23 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Atividade 1</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <div>
         <div>
             <div>
-                <span>A</span>
+                <span><b>A</b></span>
                 <input type="number" id="a-amount" name="a-amount" min="1" max="999">
             </div>
             <div>
-                <span>B</span>
+                <span><b>B</b></span>
                 <input type="number" id="b-amount" name="b-amount" min="1" max="999">
             </div>
         </div>
         <button id="run" onClick="SolveProblem();">Executar</button>
     </div>
-    <div>
-        <p><b>Resultado:</b></p>
+    <div class="result-group">
+        <div id="result-header"><b>Resultado:</b></div>
         <span id="result"></span>
     </div>
 
